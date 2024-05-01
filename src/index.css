@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
-button, a{
+button,
+a {
   cursor: pointer;
+}
+
+:root {
+  --blue-gray: #0f172a;
 }
