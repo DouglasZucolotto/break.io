@@ -22,4 +22,9 @@ export const StartStyle = styled.button`
   padding: 10px;
   width: 132px;
   height: 48px;
+  transition: background-color 0.2s ease;
+
+  &:hover{
+    background-color: #6B0677;
+  }
 `

@@ -1,6 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 
 button,
@@ -10,4 +12,5 @@ a {
 
 :root {
   --blue-gray: #0f172a;
+  --sub-title: #475569;
 }
