@@ -25,10 +25,17 @@ export const Home = styled.div`
   }
 
   .sub-title {
-    margin-top: 28px;
     font-size: 20px;
     font-weight: 400;
     color: var(--sub-title);
+  }
+
+  .container-sub-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 28px;
   }
 
   input {
@@ -65,5 +72,35 @@ export const Home = styled.div`
   .imageone{
     margin-top: 65px;
     width: 1500px;
+  }
+
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+  }
+
+  .secondHomeBtn{
+    margin-top: 40px;
+  }
+
+  .secondHomeBtn > button{
+    font-size: 24px;
+    font-weight: bold;
+    width: 208px;
+    height: 64px;
+    border-radius: 26px;
+  }
+
+  .imagesecond {
+    margin-top: 80px;
+  }
+
+  .third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
   }
 `
